@@ -1,0 +1,16 @@
+{
+    "name": "Esmeralda Chapter Tracker",
+    "version": "1.0.0",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/ser.js",
+        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+        "seed": "cd server && npm run seed",
+        "build": "cd client && npm run build"
+    },
+    "author": "StitchCodes",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^7.3.0"
+    }
+}
